@@ -9,10 +9,10 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     less \
     lsof \
     net-tools \
+    netcat-openbsd \
     procps \
     strace \
     tcpdump \
-    telnet \
     vim \
     wget \
   && DEBIAN_FRONTEND=noninteractive apt-get clean \
