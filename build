@@ -1,7 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -e
 
-docker pull debian:stretch
-docker build --build-arg=http_proxy=$http_proxy -t discourse/cdebug:latest .
+docker build \
+  --pull \
+  "--build-arg=http_proxy=${http_proxy:-}" \
+  -t discourse/cdebug:latest .
 docker push discourse/cdebug:latest
