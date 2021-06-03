@@ -11,6 +11,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     net-tools \
     netcat-openbsd \
     procps \
+    socat \
     strace \
     tcpdump \
     vim \
