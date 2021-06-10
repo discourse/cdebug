@@ -6,6 +6,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     ca-certificates \
     curl \
     gdb \
+    iproute2 \
     jq \
     less \
     lsof \
