@@ -7,6 +7,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     curl \
     gdb \
     iproute2 \
+    iputils-ping \
     jq \
     less \
     lsof \
